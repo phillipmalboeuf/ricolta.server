@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "removeComments": true,
+    "targets": "ES2017",
+    "lib": [
+        "es2017"
+    ]
+  }
+}
