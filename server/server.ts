@@ -27,7 +27,7 @@ server.use((req: Request, res: Response, next: NextFunction) => {
 })
 
 
-const port = process.env.PORT || 8089
+const port = process.env.PORT || CONF('SERVER_PORT')
 server.listen(port, () => {
   console.log(`Listening on port ${port}...`)
 });

@@ -1,6 +1,7 @@
 {
   "MONGO_URI": "mongodb://127.0.0.1:27017",
   "MONGO_DB": "database",
+  "SERVER_PORT": "8089",
   "ORIGIN": "http://localhost:8080",
   "DEFAULT_LOCALE": "fr_CA"
 }
